@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF12CEFF27E0822B00F3669B /* Weather2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12CEFE27E0822B00F3669B /* Weather2App.swift */; };
 		AF12CF0127E0822B00F3669B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12CF0027E0822B00F3669B /* ContentView.swift */; };
 		AF12CF0327E0822E00F3669B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF12CF0227E0822E00F3669B /* Assets.xcassets */; };
 		AF12CF0627E0822E00F3669B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF12CF0527E0822E00F3669B /* Preview Assets.xcassets */; };
+		AF12CF0D27E0AD1100F3669B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12CF0C27E0AD1100F3669B /* AppDelegate.swift */; };
+		AF12CF0F27E0B0C600F3669B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12CF0E27E0B0C600F3669B /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF12CEFB27E0822B00F3669B /* Weather2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF12CEFE27E0822B00F3669B /* Weather2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather2App.swift; sourceTree = "<group>"; };
 		AF12CF0027E0822B00F3669B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF12CF0227E0822E00F3669B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF12CF0527E0822E00F3669B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF12CF0C27E0AD1100F3669B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF12CF0E27E0B0C600F3669B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF12CF1027E0BA6B00F3669B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		AF12CEFD27E0822B00F3669B /* Weather2 */ = {
 			isa = PBXGroup;
 			children = (
-				AF12CEFE27E0822B00F3669B /* Weather2App.swift */,
+				AF12CF0C27E0AD1100F3669B /* AppDelegate.swift */,
+				AF12CF0E27E0B0C600F3669B /* SceneDelegate.swift */,
 				AF12CF0027E0822B00F3669B /* ContentView.swift */,
+				AF12CF1027E0BA6B00F3669B /* Info.plist */,
 				AF12CF0227E0822E00F3669B /* Assets.xcassets */,
 				AF12CF0427E0822E00F3669B /* Preview Content */,
 			);
@@ -137,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF12CF0D27E0AD1100F3669B /* AppDelegate.swift in Sources */,
 				AF12CF0127E0822B00F3669B /* ContentView.swift in Sources */,
-				AF12CEFF27E0822B00F3669B /* Weather2App.swift in Sources */,
+				AF12CF0F27E0B0C600F3669B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +279,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Weather2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Weather2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
