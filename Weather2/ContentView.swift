@@ -2,8 +2,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("No weather data")
-            .padding()
+        NavigationView {
+            Text("No weather data")
+                .padding()
+                .navigationBarTitle("Weather")
+        }
     }
 }
 
